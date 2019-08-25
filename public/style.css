@@ -1,19 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    font-family: 'Nunito';
+    font-family: 'Montserrat';
 }
 
 h2{
     font-size: 18px;
-    padding: 10px 20px;
-    color: #575ed8;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: #ffffff;
 }
 
 #mario-chat{
     max-width: 600px;
-    margin: 30px auto;
-    border: 1px solid #ddd;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
-    border-radius: 2px;
+    height: 100vh;
+    margin: 20px auto;
+    border: 0px solid #ddd;
+    box-shadow: 0px 0px 25px rgba(93, 123, 255, 0.329);
+    
 }
 
 #chat-window{
@@ -59,11 +69,15 @@ input{
 }
 
 button{
-    background: #575ed8;
+    background: #57d868;
     color: #fff;
     font-size: 18px;
     border: 0;
     padding: 12px 0;
+    outline: none;
     width: 100%;
     border-radius: 0 0 2px 2px;
+}
+button:hover{
+    background: hsla(128, 62%, 59%, 0.692);
 }
