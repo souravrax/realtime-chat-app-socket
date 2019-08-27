@@ -22,5 +22,5 @@ btn.addEventListener('click', ()=>{
 //Listen for events
 
 socket.on('chat', (data)=>{
-    output.innerHTML+="<p><strong>" + data.handle + ": </strong>" + data.message + "</p>";
+    output.innerHTML+='<p class ="message"><strong>" + data.handle + ": </strong>" + data.message + "</p>';
 })

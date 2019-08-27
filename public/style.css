@@ -81,3 +81,13 @@ button{
 button:hover{
     background: hsla(128, 62%, 59%, 0.692);
 }
+
+.message{
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #f9f9f9;
+}
+
+.message:hover{
+    opacity: 0.8;
+}
